@@ -1,0 +1,15 @@
+# Playground build files
+*.playgroundstate
+*.swiftmodule
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.iws

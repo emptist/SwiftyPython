@@ -31,29 +31,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
 # Virtual environments
 venv/
 env/
 ENV/
-python-env/
 
 # macOS
 .DS_Store
@@ -61,21 +43,16 @@ python-env/
 .LSOverride
 ._*
 
-# VS Code
+# IDEs
 .vscode/
-
-# JetBrains
 .idea/
 *.iml
 *.iws
 
-# HandRolled
-HandRolled
-
-# Demo specific
-Demo/venv/site-packages/*
-!Demo/venv/site-packages/.placeholder
-
 # Build artifacts
 Products/
 
+# Demo specific
+venv/*
+!venv/.placeholder
+!venv/site-packages/.placeholder
